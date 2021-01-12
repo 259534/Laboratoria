@@ -1,0 +1,7 @@
+echo "Latex" >> README.md
+git init
+git add README.md
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/259534/Laboratoria.git
+git push -u origin main
